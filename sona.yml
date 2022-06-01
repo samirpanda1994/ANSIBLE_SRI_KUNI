@@ -1,0 +1,15 @@
+---
+- hosts: all
+  become: yes
+  user: ansible
+  tasks: 
+   - nmae: i want to install git
+     apt:
+      name: git
+      state: present
+        
+   - name: i want to install tree
+     apt:
+      name: tree
+      state: present
+      
