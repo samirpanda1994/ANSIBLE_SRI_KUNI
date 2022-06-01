@@ -3,7 +3,7 @@
   become: yes
   user: ansible
   tasks: 
-   - nmae: i want to install git
+   - name: i want to install git
      apt:
       name: git
       state: present
